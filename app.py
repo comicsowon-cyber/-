@@ -8,7 +8,7 @@ plt.rcParams["axes.unicode_minus"] = False
 # ===== 그래프 =====
 st.subheader("📈 가격 변화")
 
-fig, ax = plt.subplots(figsize=(5, 2.8))  # 작고 가독성 있게
+fig, ax = plt.subplots(figsize=(3, 2.8))  # 작고 가독성 있게
 
 for name in ITEMS:
     history = st.session_state.stocks[name]["history"]
