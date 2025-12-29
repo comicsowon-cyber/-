@@ -3,4 +3,6 @@ matplotlib
 flask
 pandas
 numpy
-
+python-dateutil
+pytz
+cycler
